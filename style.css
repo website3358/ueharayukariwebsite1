@@ -168,6 +168,20 @@ section {
     background-color: #F9F6F2;
 }
 
+/* プロフィール画像 */
+.profile-image {
+    text-align: center;
+    margin: 40px auto 60px;
+}
+
+.profile-image img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(219, 202, 180, 0.4);
+}
+
 /* 導入文 */
 .profile-intro {
     max-width: 800px;
@@ -361,6 +375,14 @@ footer p {
         padding: 60px 0;
     }
     
+    .profile-image {
+        margin: 30px auto 40px;
+    }
+    
+    .profile-image img {
+        max-width: 250px;
+    }
+    
     .profile-intro {
         font-size: 1rem;
         line-height: 1.8;
@@ -408,6 +430,10 @@ footer p {
     
     h2 {
         font-size: 1.5rem;
+    }
+    
+    .profile-image img {
+        max-width: 200px;
     }
     
     .book-image img {
